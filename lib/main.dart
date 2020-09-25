@@ -83,6 +83,7 @@ class _InAppWebViewAppState extends State<InAppWebViewApp>
     Widget build(BuildContext context)
     {
         return MaterialApp(
+            debugShowCheckedModeBanner: false,
             initialRoute: '/',
             routes: {
                 '/': (context) => InAppWebViewExampleScreen(),
